@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BOScoin Wallet",
+    "slug": "boscoin-wallet",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.boscoin.wallet2",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.boscoin.wallet2"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./App/assets/images/icon.png",
+    "splash": {
+      "image": "./App/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
